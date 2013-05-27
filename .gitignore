@@ -1,0 +1,6 @@
+# Ignore internal references
+ref/
+
+# Ignore temp
+tmp/
+.swp
