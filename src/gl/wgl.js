@@ -14,6 +14,8 @@ TWOPFIVE.wgl = new function(){
 		gl = canvasElement.getContext("experimental-webgl");
 		if(gl === null)
 			return false;
+		gl.viewportWidth = canvasElement.width;
+		gl.viewportHeight = canvasElement.height;
 		return true;
 	};
 	
